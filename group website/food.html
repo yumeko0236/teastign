@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Destinations </title>
+    <style>
+        body {
+            background-color: #222;
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 25px;
+            border-bottom: 3px solid #ff0055;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav a {
+            color:white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+        nav a:hover { color: #ff0055; }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 20px;
+            flex: 1; 
+        }
+        .content-box {
+            background-color: #444;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .two-column-layout{
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+
+        .text-side, .image-side {
+            flex: 1;
+        }
+        .text-side h1 {
+            color: #ff0055;
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+        .image-side img {
+            width: 100%;
+           max-width: 100%;
+           height: auto;
+           max-height: 350px;
+           object-fit: contain;
+           border-radius: 10px;
+           display: block;
+           margin: 0 auto 15px auto;
+
+        }
+        .hero-btn{
+            display: inline-block;
+            background-color: #ff0055;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+        .hero-btn:hover{
+            background-color: #cc0044;
+        }
+        .section-title {
+            text-align: center;
+            color: #ff0055;
+            font-size: 32px;
+            margin: 60px 0 30px 0;
+            border-bottom: 2px solid #444;
+            padding-bottom: 10px;
+        }
+        .team-grid {
+            display: flex;
+            flex-wrap: wrap;
+           justify-content: center;
+            gap: 20px;
+        }
+        .team-card {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .team-card img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 2px solid #ff0055;
+        }
+        footer{
+            background-color: #111;
+            text-align: center;
+            padding: 20px;
+            color: #888;
+            border-top: 2px solid #ff0055;
+            margin-top: auto;
+        }
+        @media (max-width: 768px){
+            .two-column-layout{
+                flex-direction: column;
+                text-align: center;
+            }
+            .text-side{
+                margin-bottom: 20px;
+            }
+            nav {
+                flex-direction: column;
+                gap: 15px
+            }
+
+        }
+    </style>
+    </head>
+    <body> 
+        <nav> 
+            <a href="Home.html">Home</a>
+            <a href="Destinations.html">Destinations</a>
+            <a href="Food and Culture.html">Food and Culture</a>
+            <a href="Travel Guide.html">Travel Guide</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+        <div class="container">
+            <h2 class="section-title">Food and Culture</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 30px auto;">
+                city is not just about the: placeholder concise paragraph
+            </p>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="images.png" alt="placeholder">
+                    <h3>Placehold</h3>
+                    <p>placehold</p>
+                    </div>
+                    <div class="team-card">
+                        <img src="images.png" alt="placehold">
+                        <h3>text</h3>
+                        <p>holdertext</p>
+                    </div>
+                    <div class="team-card">
+                        <img src="images.png" alt="text">
+                        <h3>another text</h3>
+                        <p>moretext</p>
+                    </div>
+                    <div class="team-card">
+                        <img src="images.png" alt="text">
+                        <h3>hahamoretext</h3>
+                        <p>text</p>
+                    </div>
+                    </div>
+                    </div>
+                
+                    <footer>
+                <p>&copy; 2026 placeholder city. all right placeholder.</p>
+            </footer>
+
+        
+    </body>
+
+</html>

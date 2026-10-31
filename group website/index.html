@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Home </title>
+    <style>
+        body {
+            background-color: #222;
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 25px;
+            border-bottom: 3px solid #ff0055;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav a {
+            color:white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+        nav a:hover { color: #ff0055; }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 20px;
+            flex: 1; 
+        }
+        .content-box {
+            background-color: #444;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .two-column-layout{
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+
+        .text-side, .image-side {
+            flex: 1;
+        }
+        .text-side h1 {
+            color: #ff0055;
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+        .image-side img {
+            width: 100%;
+           max-width: 100%;
+           height: auto;
+           max-height: 350px;
+           object-fit: contain;
+           border-radius: 10px;
+           display: block;
+           margin: 0 auto 15px auto;
+
+        }
+        .hero-btn{
+            display: inline-block;
+            background-color: #ff0055;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+        .hero-btn:hover{
+            background-color: #cc0044;
+        }
+        .section-title {
+            text-align: center;
+            color: #ff0055;
+            font-size: 32px;
+            margin: 60px 0 30px 0;
+            border-bottom: 2px solid #444;
+            padding-bottom: 10px;
+        }
+        .team-grid {
+            display: flex;
+            flex-wrap: wrap;
+           justify-content: center;
+            gap: 20px;
+        }
+        .team-card {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .team-card img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 2px solid #ff0055;
+        }
+        footer{
+            background-color: #111;
+            text-align: center;
+            padding: 20px;
+            color: #888;
+            border-top: 2px solid #ff0055;
+            margin-top: auto;
+        }
+        @media (max-width: 768px){
+            .two-column-layout{
+                flex-direction: column;
+            }
+            nav {
+                flex-direction: column;
+                gap: 10px
+            }
+
+        }
+    </style>
+    </head>
+    <body> 
+        <nav> 
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="food.html">Food and Culture</a>
+            <a href="travel.html".html>Travel Guide</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="container">
+            
+        </div>
+        <div class="content-box">
+            <div class="two-column-layout">
+                <div class="text-side">
+            <h1>placeholderext</h1>
+            <h2>placeholder</h2>
+            <p> looking at this type of coding is actually really cool  </p>
+            <a href="destinations.html" class="hero-btn">placehold</a>
+                </div>
+                <div class="image-side">
+                    <img src="images.png" alt="PlaceHolder image">
+                <br><br>
+
+                 <div class="image-vox">
+                    <img src="forced.png" alt="I was forced to">
+                    </div>
+
+                </div>
+            </div>
+            </div>
+                <h2 class="section-title"> Meet the group</h2>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <img src="theone.jpg" alt="member 1">
+                        <h3> member 1 </h3>
+                        <p>role</p>
+                        </div>
+                    </div>   
+                    <footer>
+                <p>&copy; placeholder our right reserved.</p>
+            </footer>
+
+        
+    </body>
+
+</html>
